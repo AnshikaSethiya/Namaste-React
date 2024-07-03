@@ -1,0 +1,48 @@
+const resList = [
+  {
+    type: "restaurant",
+    data: {
+      type: "F",
+      id: "334475",
+      name: "KFC",
+      uuid: "eaed0e3b-7c0e-4367-8f59-f41d309fb93a",
+      city: "1",
+      area: "BTM Layout",
+      totalRatingsString: "500+ ratings",
+      cloudinaryImageId: "bdcd233971b7c81bf77e1fa4471280eb",
+      cuisines: ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+      tags: [],
+      costForTwo: 40000,
+      costForTwoString: "₹400 FOR TWO",
+      deliveryTime: 36,
+      minDeliveryTime: 36,
+      maxDeliveryTime: 36,
+      slaString: "36 MINS",
+      lastMileTravel: 3.5,
+      slugs: {
+        restaurant: "kfc-btm-layout-btm",
+        hasSurge: false,
+        sla: {
+          restaurantId: "365010",
+          deliveryTime: 31,
+          minDeliveryTime: 31,
+          maxDeliveryTime: 31,
+          lastMileTravel: 4.699999809265137,
+          lastMileDistance: 0,
+          serviceability: "SERVICEABLE",
+          rainMode: "NONE",
+          longDistance: "NOT_LONG_DISTANCE",
+          preferentialService: false,
+          iconType: "EMPTY",
+        },
+        promoted: false,
+        avgRating: "3.9",
+        totalRatings: 500,
+        new: false,
+      },
+      subtype: "basic",
+    },
+  },
+];
+
+export default resList;
